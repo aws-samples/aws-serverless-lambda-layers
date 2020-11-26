@@ -21,6 +21,7 @@
 Install AWS Cloud9 Environment using the instructions [here.](https://docs.aws.amazon.com/cloud9/latest/user-guide/create-environment-main.html)
 
 ![AWS Cloud9](images/Cloud9.png)
+
 Inside AWS Cloud9 environment, open a shell terminal and run the following:
 ```yaml 
 npm install -g npm
