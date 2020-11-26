@@ -127,7 +127,6 @@ layers:
   MomentLayer:
     path: moment_layer
     description: "Moment Dependencies"
-	
 ```
 ### 10. Create and deploy Lambda Layer 
 
