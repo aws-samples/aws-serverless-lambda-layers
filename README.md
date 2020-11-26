@@ -36,6 +36,8 @@ sls create -t aws-nodejs -n lambda-service -p lambda-service
 
 ### 3. Create a Lambda Function<a name="function"></a>
 
+![AWS Lambda Function](images/AWS-Function-No-Layers.png)
+
 Replace handler.js with:
 
 ```js
@@ -107,6 +109,8 @@ sls deploy
 Open the http api gateway endpoint in the browser, and this time you will get `internal error`.
 
 ### 9. Create Lambda Layer Serverless Project<a name="layer"></a>
+
+![AWS Lambda Function](images/AWS-Function-Layers.png)
 Inside the `serverless` directory, run the following commands:
 ```yaml
 sls create -t aws-nodejs -n lambda-layer -p lambda-layer
