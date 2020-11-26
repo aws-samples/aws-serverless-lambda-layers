@@ -203,7 +203,7 @@ Inside the `lambda-layer` directory, run:
 ```yaml
 sls remove
 ```
-Finally using the AWS Management Console, remove the AWS CLoud9 environment.
+Finally using the AWS Management Console, remove the AWS Cloud9 environment.
 
 ## Security
 
