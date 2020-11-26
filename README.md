@@ -4,7 +4,7 @@
 1. [Install Serverless](#install)
 2. [Create a Serverless project](#create)
 3. [Create a Lambda Function](#function)
-4. [Deploy the Lambda Fucntion](#deploy)
+4. [Deploy the Lambda Function](#deploy)
 5. [Test the Lambda Function](#test)
 6. [Exclude the node_modules from Lambda Function](#exclude)
 7. [Deploy Lambda Function again](#deployagain)
