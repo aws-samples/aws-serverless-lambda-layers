@@ -16,7 +16,7 @@
 * lambda-service (will contain the Node function source code)
 * lambda-layer (will contain the lambda layers)
 
-### 1. Install Serverless<a name="install"></a>
+### 1. Install Serverless Framework<a name="install"></a>
 Install AWS Cloud9 Environment using the instructions [here.](https://docs.aws.amazon.com/cloud9/latest/user-guide/create-environment-main.html)
 Inside AWS Cloud9 environment, open a shell terminal and run the following:
 ```yaml 
