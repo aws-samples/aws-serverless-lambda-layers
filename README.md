@@ -12,7 +12,7 @@
 9. [Modify Lambda Function to use Lambda Layer](#modify)
 10. [Cleanup](#cleanup)
 
- Following the AWS best practices, we will handle our application and the layers into two independent Serverless projects called:
+[Serverless Framework](https://www.serverless.com/open-source/) Open Source lets you develop and deploy serverless applications to AWS. The Serverless Framework CLI is the simplest way to develop infinitely scalable, pay-per-execution serverless applications. Following the AWS best practices, we will handle our application and the layers into two independent Serverless projects called:
 * lambda-service (will contain the Node function source code)
 * lambda-layer (will contain the lambda layers)
 
