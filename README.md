@@ -81,7 +81,7 @@ functions:
           method: get
           path: hello
 ```
-### 4. Deploy the Lambda Fucntion<a name="deploy"></a>
+### 4. Deploy the Lambda Function<a name="deploy"></a>
 Inside the lambda-service directory, run the following commands:
 ```yaml
 sls package
