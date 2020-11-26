@@ -1,4 +1,4 @@
-## Create AWS Lambda Layers using Serverless Framework
+## Develop & Deploy AWS Lambda Layers using Serverless Framework
 
 ## Table of contents
 1. [Install Serverless Framework](#install)
