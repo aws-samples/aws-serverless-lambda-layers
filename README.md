@@ -18,6 +18,8 @@
 10. [Cleanup](#cleanup)
 <hr />
 
+[**AWS Lambda Layers**](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) let you keep your deployment package small, which makes development easier. You can avoid errors that can occur when you install and package dependencies with your function code. A Lambda layer is an archive containing additional code, such as libraries, dependencies, or even custom runtimes. When you include a layer in a function, the contents are extracted to the /opt directory in the execution environment. You can include up to five layers per function, which count towards the standard Lambda deployment size limits.
+
 [**Serverless Framework**](https://www.serverless.com/open-source/) Open Source lets you develop and deploy serverless applications to AWS. The Serverless Framework CLI is the simplest way to develop infinitely scalable, pay-per-execution serverless applications. Following the AWS best practices, we will handle our application and the layers into two independent Serverless projects called:
 * lambda-service (will contain the Node function source code)
 * lambda-layer (will contain the lambda layers)
