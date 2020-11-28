@@ -78,6 +78,8 @@ service: lambda-service
 
 provider:
   name: aws
+  apiGateway:
+    shouldStartNameWithService: true
   runtime: nodejs12.x
   stage: dev
   region: us-east-1
@@ -171,6 +173,8 @@ package:
 
 provider:
   name: aws
+  apiGateway:
+    shouldStartNameWithService: true
   runtime: nodejs12.x
   stage: dev
   region: us-east-1

@@ -4,6 +4,8 @@ package:
     - node_modules/**
 provider:
   name: aws
+  apiGateway:
+    shouldStartNameWithService: true
   runtime: nodejs12.x
   stage: dev
   region: us-east-1
